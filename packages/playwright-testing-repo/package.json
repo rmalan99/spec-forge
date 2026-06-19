@@ -1,0 +1,25 @@
+{
+  "name": "@mouseinyl-/spec-forge",
+  "version": "0.1.0",
+  "description": "Forge a production-ready Playwright testing repo with docs, agents, CI, and safe template upgrades.",
+  "type": "module",
+  "bin": {
+    "spec-forge": "./bin/create-playwright-testing-repo.js"
+  },
+  "files": [
+    "bin",
+    "template",
+    "README.md"
+  ],
+  "keywords": [
+    "playwright",
+    "template",
+    "scaffold",
+    "npx",
+    "testing"
+  ],
+  "scripts": {
+    "test": "node --test bin/create-playwright-testing-repo.test.js"
+  },
+  "license": "MIT"
+}
