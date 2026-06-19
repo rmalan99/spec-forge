@@ -30,8 +30,9 @@ jobs:
         run: pnpm exec playwright install --with-deps chromium
 
       - name: Run tests
-        env:
-          PLATFORM_URL: ${{ secrets.PLATFORM_URL }}
-          PLATFORM_USER_EMAIL: ${{ secrets.PLATFORM_USER_EMAIL }}
-          PLATFORM_USER_PASSWORD: ${{ secrets.PLATFORM_USER_PASSWORD }}
+        # Add your GitHub Actions secrets here
+        # env:
+          # PLATFORM_URL: ${{ secrets.PLATFORM_URL }}
+          # PLATFORM_USER_EMAIL: ${{ secrets.PLATFORM_USER_EMAIL }}
+          # PLATFORM_USER_PASSWORD: ${{ secrets.PLATFORM_USER_PASSWORD }}
         run: pnpm test

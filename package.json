@@ -1,6 +1,6 @@
 {
   "name": "@mouseinyl-/spec-forge",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "Forge a production-ready Playwright testing repo with docs, agents, CI, and safe template upgrades.",
   "type": "module",
   "bin": {
